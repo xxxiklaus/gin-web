@@ -2,7 +2,7 @@
 gin_web basic
 
 一些基础的实现和应用  
-````
+```go
 package main
 
 import (
@@ -42,4 +42,4 @@ func main() {
 	e1.GET("/secrets", Handler)
 	e.Run()
 }
-````
+```
